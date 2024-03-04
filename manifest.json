@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Extension Learning",
+  "icons": {
+    "32": "./random32.png"
+  },
+  "version": "1.0.0",
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "action": {},
+  "permissions": ["scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"]
+}
